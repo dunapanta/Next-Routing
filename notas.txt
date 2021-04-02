@@ -1,0 +1,9 @@
+52 File-based Routing
+En NextJS se pueden crear rutas a traves del folder structure
+se utiliza /pages para que NextJS infiera las rutas
+folder /pages
+        |------> index.js   = my-domain.com
+        |------> about.js   = my-domain.com/about
+        |--folder /products
+                    |------> index.js = my-domain.com/produts
+                    |------> [id].js = my-domain.com/produts/1
