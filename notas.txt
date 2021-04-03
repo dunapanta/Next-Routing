@@ -7,3 +7,8 @@ folder /pages
         |--folder /products
                     |------> index.js = my-domain.com/produts
                     |------> [id].js = my-domain.com/produts/1
+
+57 Para rutas con algun id que se definen como [id].js
+para acceder al valor se utiliza next/router
+si se esta trabajando con clases tambien se puede hacer uso de withRouter para envolver HOC y se inyecte router al componente y se la obtendria por props
+import { useRouter } from 'next/router'
